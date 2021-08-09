@@ -53,6 +53,13 @@ class Vampire {
   // * when comparing Ansel and Sarah, Ansel is the closest common anscestor.
   // * when comparing Ansel and Andrew, Ansel is the closest common anscestor.
   closestCommonAncestor(vampire) {}
+  vampireWithName(name) {}
+
+  // Returns the total number of vampires that exist
+  get totalDescendents() {}
+
+  // Returns an array of all the vampires that were converted after 1980
+  get allMillennialVampires() {}
 }
 
 module.exports = Vampire;
